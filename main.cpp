@@ -1,10 +1,6 @@
 #include <iostream>
 #include "quicksort.h"
 
-//int main()
-//{
-//   std::cout << "add(1, 2) = " << add(1, 2) << '\n';
-//}
 
 int arrayLength(int *p) {
     return (sizeof(p)/sizeof(*p));
@@ -14,9 +10,6 @@ void printArray(int *a, int array_length) {
     for(size_t i = 0; i < array_length; i++)
         std::cout << a[i] << " ";
 }
-
-//int a[7];
-//func(a);
 
 int main() {
     int arr[] = {17, 9, 11, 15, 7, 8, 16, 25, 19, 7};
